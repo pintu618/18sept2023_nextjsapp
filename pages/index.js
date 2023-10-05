@@ -1,12 +1,14 @@
 
 //import area.......
 import Head from 'next/head'
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Aside from '../components/Aside';
+import Section from '../components/Section';
 // import somthing from 'some library/location
 
 //'page/_app.js'
 //import 'import some location;
-
-
 //function defination area
 
  function Home() {
@@ -16,14 +18,14 @@ import Head from 'next/head'
         <title>Welcome to my Next Application</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>Header component </header>
+      <Header/>
 
       <main >
-        <aside> Aside component   </aside>
-        <section> Section component </section>
+        <Aside/>
+        <Section/>
          </main>
 
-      <footer >Footer component </footer>
+      <Footer/>
     </div>
   )
 }
