@@ -3,11 +3,20 @@ header{
   height: 140px;
   background-color: aqua;
   border: 1px dashed red;
+  margin: auto;
 
+}
+main{
+  width: 980px;
+  height: 450px;
+  background-color: aqua;
+  border: 1px dashed black;
+  margin: auto;
 }
 footer{
   width: 980px;
   height: 70px;
   background-color: aqua;
   border: 1px dashed black;
+  margin: auto;
 }
