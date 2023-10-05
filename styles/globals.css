@@ -9,9 +9,25 @@ header{
 main{
   width: 980px;
   height: 450px;
-  background-color: aqua;
   border: 1px dashed black;
   margin: auto;
+}
+aside{
+  width: 270px;
+  height: 450px;
+  background-color: aqua;
+  border: 1px dashed black;
+  float: left;
+  margin-right: 15px;
+  
+}
+section{
+  width:690px;
+  height: 450px;
+  background-color: aqua;
+  border: 1px dashed black;
+  float: left;
+  
 }
 footer{
   width: 980px;

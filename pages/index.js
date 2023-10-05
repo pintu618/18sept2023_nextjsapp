@@ -16,11 +16,14 @@ import Head from 'next/head'
         <title>Welcome to my Next Application</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header> </header>
+      <header>Header component </header>
 
-      <main > </main>
+      <main >
+        <aside> Aside component   </aside>
+        <section> Section component </section>
+         </main>
 
-      <footer > </footer>
+      <footer >Footer component </footer>
     </div>
   )
 }
